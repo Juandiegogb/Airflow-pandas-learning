@@ -21,7 +21,7 @@ def write_hello_to_file():
 with DAG(
     dag_id="hello_world_dag",  # Nombre del DAG
     start_date=datetime(2024, 12, 19),  # Fecha inicial del DAG
-    schedule_interval="0 * * * *",  # Se ejecuta cada hora
+    schedule_interval="0/5 * * * *",  # Se ejecuta cada hora
     catchup=False,  # Evita ejecutar tareas pasadas
 ) as dag:
 
