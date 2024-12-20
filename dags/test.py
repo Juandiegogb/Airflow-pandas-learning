@@ -12,7 +12,7 @@ def write_hello_to_file():
     file_path = "/tmp/hola_python.txt"
 
     # Escribir el mensaje en el archivo
-    with open(file_path, "w") as file:
+    with open(file_path, "a") as file:
         file.write(message)
 
     print(f"Archivo escrito en: {file_path}")
