@@ -1,2 +1,7 @@
 /.mypy_cache
 /synthetic_fraud_data.csv
+/env
+/config
+/logs
+/plugins
+.env
